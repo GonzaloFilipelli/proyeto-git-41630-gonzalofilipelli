@@ -4,13 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../Styles/styles.css">
     <title>Document</title>
 </head>
 <body>
-    <header class="header" >
-        <h1 class="header__title"  >Torneos El Oeste</h1>
-        <nav class="header__nav"  >
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: orange;">
+            <div class="container-fluid">
+              <a class="navbar-brand ms-3" href="../index.html">Torneos El Oeste</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto me-5" >
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../Pages/nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../Pages/torneos.html">Torneos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../Pages/sedes.html">Sedes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../Pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>    
+    </header>
+
+    <main>
+        <section class="container">
+            <h1 class="text-center"><strong>Sedes</strong></h1>
+            <article class="row">
+                <div class="col-md-6 m-3>
+                    <div class="card" style="width: 15rem;">
+                        <div class="card" style="width: 15rem;">
+                            <img src="../Imagenes/cancha5.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p>Cancha de 5</p>
+                                <ul>
+                                    <li>Moron</li>
+                                    <li>Sarmiento 777</li>
+                                    <li>Tel: 15-3434-3434</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 m-3">
+                    <div class="card" style="width: 15rem;">
+                        <div class="card" style="width: 15rem;">
+                            <img src="../Imagenes/cancha9.jpg" class="card-img-top" alt="p-auto">
+                            <div class="card-body">
+                                <p>Cancha de 9</p>
+                                <ul>
+                                    <li>Haedo</li>
+                                    <li>Arias 5544</li>
+                                    <li>Tel: 7777-7777</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 m-3 ">
+                    <div class="card" style="width: 15rem;">
+                        <div class="card" style="width: 15rem;">
+                            <img src="../Imagenes/cancha11.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p>Cancha de 11</p>
+                                <ul>
+                                    <li>Ramos Mejia</li>
+                                    <li>Monseñor Bufano 567</li>
+                                    <li>Tel: 4444-4444</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class="text-center fixed-bottom" style="background-color: orange;">
+        <P>© Pagina creada por Gonzalo Filipelli</P>
+    </footer>
+    <!--
+    <header>
+        <h1>Torneos El Oeste</h1>
+        <nav>
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="./nosotros.html">Nosotros</a></li>
@@ -22,14 +106,14 @@
     </header>
     
 
-    <main class="main__sedes">
+    <main>
          <h2>Sedes</h2>
-            <div class="container">
-                <div class="card">
-                    <div class="card__img">
+            <div>
+                <div>
+                    <div>
                         <img src="../Imagenes/cancha11.jpg" alt="" >
                     </div>
-                    <div class="card__ul">
+                    <div>
                         <ul>
                             <li>Cancha de 11</li>
                             <li>Ramos Mejia</li>
@@ -38,11 +122,11 @@
                         </ul>
                     </div>    
                 </div>
-                <div class="card">
-                    <div class="card__img">
+                <div>
+                    <div>
                     <img src="../Imagenes/cancha5.jpg" alt="" >
                     </div>
-                    <div class="card__ul">
+                    <div>
                         <ul>
                             <li>Cancha de 5</li>
                             <li>Moron</li>
@@ -51,11 +135,11 @@
                         </ul>
                     </div>    
                 </div> 
-                <div class="card">
-                    <div class="card__img">
+                <div>
+                    <div>
                         <img src="../Imagenes/cancha9.jpg" alt="" >
                     </div>
-                    <div class="card__ul">
+                    <div >
                         <ul>
                             <li>Cancha de 9</li>
                             <li>Haedo</li>
@@ -68,8 +152,10 @@
             
     </main>
 
-    <footer class="footer">
+    <footer>
         <P>Pagina creada por Gonzalo Filipelli</P>
     </footer>
+-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
